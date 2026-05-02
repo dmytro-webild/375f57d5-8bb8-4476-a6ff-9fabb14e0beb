@@ -11,7 +11,6 @@ import HeroLogo from '@/components/sections/hero/HeroLogo';
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
 import ProductCardOne from '@/components/sections/product/ProductCardOne';
 import TeamCardEleven from '@/components/sections/team/TeamCardEleven';
-import TestimonialCardSixteen from '@/components/sections/testimonial/TestimonialCardSixteen';
 import TextAbout from '@/components/sections/about/TextAbout';
 
 export default function LandingPage() {
@@ -73,28 +72,6 @@ export default function LandingPage() {
       ]}
       title="Latest Drops"
       description="Check out our newest collection of premium streetwear."
-    />
-  </div>
-
-  <div id="testimonials" data-section="testimonials">
-      <TestimonialCardSixteen
-      animationType="slide-up"
-      textboxLayout="default"
-      useInvertedBackground={true}
-      testimonials={[
-        { id: "1", name: "Alex R.", role: "Supporter", company: "Local Client", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/mature-woman-posing-studio_176474-72949.jpg" },
-        { id: "2", name: "Jordan P.", role: "Fashionista", company: "Influencer", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/positive-curly-haired-woman-shopper-rests-after-making-purchases-mall-dressed-fashionable-clothes-surrounded-by-shopping-bags-looks-gladfully-away-poses-against-blurred-urban-background_273609-59142.jpg" },
-        { id: "3", name: "Taylor B.", role: "Fan", company: "Customer", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/stylish-hipster-woman-bucket-hat-posing-outdoors-old-railway-station_181624-55447.jpg" },
-        { id: "4", name: "Casey W.", role: "Fan", company: "Customer", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-cool-man-posing-outdoors_23-2149409742.jpg" },
-        { id: "5", name: "Sam M.", role: "Supporter", company: "Customer", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/positive-lady-pink-sunglasses-laughing-showing-peace-signs_197531-19364.jpg" },
-      ]}
-      kpiItems={[
-        { value: "1000+", label: "Happy Members" },
-        { value: "1-2", label: "Day Shipping" },
-        { value: "2024", label: "Est. Year" },
-      ]}
-      title="Community Love"
-      description="Hear what our community says about Members Market."
     />
   </div>
 

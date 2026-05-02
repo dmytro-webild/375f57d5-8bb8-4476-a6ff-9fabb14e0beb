@@ -63,15 +63,14 @@ export default function LandingPage() {
       gridVariant="four-items-2x2-equal-grid"
       useInvertedBackground={false}
       products={[
-        { id: "p1", name: "Signature Hoodie", price: "$85", imageSrc: "http://img.b2bpic.net/free-photo/fashion-portrait-young-elegant-woman_1328-2701.jpg" },
-        { id: "p2", name: "Urban Joggers", price: "$70", imageSrc: "http://img.b2bpic.net/free-photo/woman-orange-sports-wear-posing-street_1303-31736.jpg" },
-        { id: "p3", name: "Quarter-Zip Jacket", price: "$120", imageSrc: "http://img.b2bpic.net/free-photo/store-employee-checking-stock-tablet_482257-84173.jpg" },
-        { id: "p4", name: "DoubleM Logo Tee", price: "$40", imageSrc: "http://img.b2bpic.net/free-photo/shirt-mockup-concept-with-plain-clothing_23-2149448806.jpg" },
-        { id: "p5", name: "Heavyweight Hoodie", price: "$90", imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-man-posing-with-hoodie-indoors_23-2149359859.jpg" },
-        { id: "p6", name: "Graphic Print Tee", price: "$45", imageSrc: "http://img.b2bpic.net/free-photo/beautiful-blonde-woman-white-hoodie-blue-jeans-posing-against-neon-background_89887-1131.jpg" },
+        { id: "p1", name: "Signature Hoodie", price: "$85", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777764497667-sros8ryr.jpg" },
+        { id: "p2", name: "Urban Joggers", price: "$70", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777764497668-ndirln0w.jpg" },
+        { id: "p3", name: "Quarter-Zip Jacket", price: "$120", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777764497668-8o21erfh.jpg" },
+        { id: "p4", name: "DoubleM Logo Tee", price: "$40", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777764497668-f81fog3m.jpg" },
+        { id: "p5", name: "Heavyweight Hoodie", price: "$90", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777764497668-1kahcq3w.jpg" },
       ]}
-      title="Latest Drops"
-      description="Check out our newest collection of premium streetwear."
+      title="Shop Our Latest Collection"
+      description="Discover the latest drops from Members Market."
     />
   </div>
 

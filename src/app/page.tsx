@@ -44,7 +44,7 @@ export default function LandingPage() {
       <HeroLogo
       logoText="MEMBERS MARKET"
       description="Premium streetwear from Covington, LA. Visionary designs, fast shipping, and quality apparel. DoubleM runs the world."
-      buttons={[{ text: "Shop Now", href: "#products" }]}
+      buttons={[{ text: "Shop the Collection", href: "#products" }]}
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777763692127-h2q5t9oz.jpg"
       showDimOverlay={true}
     />

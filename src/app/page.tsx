@@ -44,8 +44,6 @@ export default function LandingPage() {
       logoText="MEMBERS MARKET"
       description="Members Market is a closed-loop ecosystem for those who command distinction. Access our premium, exclusive apparel drops designed for our private Member community—elevate your status today."
       buttons={[{ text: "Shop the Collection", href: "#products" }]}
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777815985986-v4adf2ra.jpg?_wi=1"
-      showDimOverlay={true}
     />
   </div>
 
@@ -134,14 +132,12 @@ export default function LandingPage() {
         { name: "email", type: "email", placeholder: "Your Email" },
       ]}
       textarea={{ name: "message", placeholder: "Your Message" }}
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777815985986-v4adf2ra.jpg?_wi=2"
     />
   </div>
 
   <div id="footer" data-section="footer">
       <FooterLogoReveal
       logoText="MEMBERS MARKET"
-      logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777815985986-v4adf2ra.jpg"
       leftLink={{ text: "Privacy", href: "/privacy" }}
       rightLink={{ text: "Terms", href: "/terms" }}
     />

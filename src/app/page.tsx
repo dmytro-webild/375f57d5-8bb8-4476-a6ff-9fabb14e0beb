@@ -51,7 +51,7 @@ export default function LandingPage() {
 
   <div id="about" data-section="about">
       <TextAbout
-      useInvertedBackground={false}
+      useInvertedBackground={true}
       title="About Members Market"
     />
   </div>
@@ -61,33 +61,35 @@ export default function LandingPage() {
       animationType="slide-up"
       textboxLayout="default"
       gridVariant="four-items-2x2-equal-grid"
-      useInvertedBackground={false}
+      useInvertedBackground={true}
+      cardClassName="border-2 border-white/10"
+      cardNameClassName="font-bold uppercase tracking-wider"
       products={[
-        { id: "p1", name: "Signature Hoodie", price: "", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777764497667-sros8ryr.jpg" },
-        { id: "p2", name: "Tracksuits", price: "", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777764497668-ndirln0w.jpg" },
-        { id: "p3", name: "Shirt and Short Set", price: "", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777764497668-8o21erfh.jpg" },
-        { id: "p4", name: "Tracksuit", price: "", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777764497668-f81fog3m.jpg" },
-        { id: "p5", name: "High Quality Shirts", price: "", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777764497668-1kahcq3w.jpg" },
+        { id: "p1", name: "Signature Hoodie", price: "$85", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777764497667-sros8ryr.jpg" },
+        { id: "p2", name: "Tracksuits", price: "$120", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777764497668-ndirln0w.jpg" },
+        { id: "p3", name: "Shirt and Short Set", price: "$95", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777764497668-8o21erfh.jpg" },
+        { id: "p4", name: "Tracksuit", price: "$120", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777764497668-f81fog3m.jpg" },
+        { id: "p5", name: "High Quality Shirts", price: "$45", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777764497668-1kahcq3w.jpg" },
       ]}
       buttons={[{ text: "View New Apparel", href: "#products" }]}
       title="Shop Our Latest Collection"
-      description="Discover the latest drops from Members Market."
+      description="Discover the latest drops from Members Market. Quality streetwear built to last."
     />
   </div>
 
   <div id="features" data-section="features">
       <FeatureCardTwentySix
       textboxLayout="default"
-      useInvertedBackground={false}
+      useInvertedBackground={true}
       features={[
-        { title: "Fast Shipping", description: "Get your gear in 1-2 business days.", imageSrc: "http://img.b2bpic.net/free-photo/high-angle-toy-laptop-boxes_23-2148790050.jpg", buttonIcon: Zap, buttonHref: "#products" },
-        { title: "Quality Material", description: "Premium fabrics meant to last.", imageSrc: "http://img.b2bpic.net/free-photo/close-up-woman-holding-thermometer-her-arm_23-2147889076.jpg", buttonIcon: Shield, buttonHref: "#products" },
-        { title: "Supportive Community", description: "We grow with our members.", imageSrc: "http://img.b2bpic.net/free-photo/adult-friends-shopping-clothes-together_23-2148385700.jpg", buttonIcon: Users, buttonHref: "#products" },
-        { title: "Local Roots", description: "Proudly based in Covington, LA.", imageSrc: "http://img.b2bpic.net/free-photo/beautiful-pterodactylus-details_23-2151640178.jpg", buttonIcon: MapPin, buttonHref: "#products" },
+        { title: "Fast Shipping", description: "Get your gear in 1-2 business days. Fast tracking for every member.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777763692127-h2q5t9oz.jpg", buttonIcon: Zap, buttonHref: "#products" },
+        { title: "Quality Material", description: "Premium fabrics meant for comfort and longevity. Built for the daily grind.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777764497667-sros8ryr.jpg", buttonIcon: Shield, buttonHref: "#products" },
+        { title: "Supportive Community", description: "Join the DoubleM family. We grow with our members.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777764497668-ndirln0w.jpg", buttonIcon: Users, buttonHref: "#products" },
+        { title: "Local Roots", description: "Proudly based in Covington, LA. Streetwear with local heritage.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777764497668-8o21erfh.jpg", buttonIcon: MapPin, buttonHref: "#products" },
       ]}
       buttons={[{ text: "Shop Apparel", href: "#products" }]}
       title="Why Members Market?"
-      description="Built for the streets, made with quality."
+      description="Built for the streets, made with quality. DoubleM runs the world."
     />
   </div>
 
@@ -98,25 +100,25 @@ export default function LandingPage() {
       useInvertedBackground={true}
       groups={[
         {
-          id: "team-group",          groupTitle: "Leadership",          members: [
+          id: "team-group",          groupTitle: "The Visionaries",          members: [
             {
-              id: "elijah",              title: "@3elijahh",              subtitle: "Founder & Creative Director",              detail: "The creative force behind every stitch.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777763692127-u6lqi6r2.jpg"},
+              id: "elijah",              title: "@3elijahh",              subtitle: "Founder & Creative Director",              detail: "The creative force behind every stitch. DoubleM vision.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777763692127-u6lqi6r2.jpg"},
           ]
         },
       ]}
-      title="Meet the Team"
-      description="Driven by vision and authentic street style."
+      title="Meet the Vision"
+      description="Driven by vision, hustle, and authentic street style."
     />
   </div>
 
   <div id="faq" data-section="faq">
       <FaqSplitText
-      sideTitle="Frequently Asked Questions"
-      useInvertedBackground={false}
+      sideTitle="Members FAQ"
+      useInvertedBackground={true}
       faqs={[
-        { id: "1", title: "How long does shipping take?", content: "We offer fast 1-2 business day shipping on all orders." },
-        { id: "2", title: "Where are you based?", content: "We are located in Covington, LA." },
-        { id: "3", title: "How can I contact you?", content: "Reach out via our contact form or our social channels." },
+        { id: "1", title: "How long does shipping take?", content: "We offer fast 1-2 business day shipping for all our members." },
+        { id: "2", title: "Where are you based?", content: "Covington, LA. Local roots, global vision." },
+        { id: "3", title: "How can I contact you?", content: "DM us or reach out via our contact form. DoubleM is always listening." },
       ]}
       faqsAnimation="slide-up"
     />
@@ -125,13 +127,13 @@ export default function LandingPage() {
   <div id="contact" data-section="contact">
       <ContactSplitForm
       useInvertedBackground={true}
-      title="Get in Touch"
-      description="Have questions about an order or brand collab? We're here."
+      title="Let's Connect"
+      description="Got a collab in mind or questions about an order? We're here to help."
       inputs={[
         { name: "name", type: "text", placeholder: "Your Name" },
         { name: "email", type: "email", placeholder: "Your Email" },
       ]}
-      textarea={{ name: "message", placeholder: "How can we help?" }}
+      textarea={{ name: "message", placeholder: "Your Message" }}
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777763692127-8qmrfus6.jpg"
     />
   </div>

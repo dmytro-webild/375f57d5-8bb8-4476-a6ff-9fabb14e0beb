@@ -42,7 +42,7 @@ export default function LandingPage() {
   <div id="hero" data-section="hero">
       <HeroLogo
       logoText="MEMBERS MARKET"
-      description="Premium streetwear from Covington, LA. Visionary designs, fast shipping, and quality apparel. DoubleM runs the world."
+      description="Experience true exclusivity with Members Market. Premium streetwear crafted for those who demand more than just apparel—elevate your style to Member status today."
       buttons={[{ text: "Shop the Collection", href: "#products" }]}
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777763692127-h2q5t9oz.jpg?_wi=1"
       showDimOverlay={true}

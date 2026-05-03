@@ -69,6 +69,7 @@ export default function LandingPage() {
         { id: "p4", name: "Tracksuit", price: "", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777764497668-f81fog3m.jpg" },
         { id: "p5", name: "High Quality Shirts", price: "", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777764497668-1kahcq3w.jpg" },
       ]}
+      buttons={[{ text: "View New Apparel", href: "#products" }]}
       title="Shop Our Latest Collection"
       description="Discover the latest drops from Members Market."
     />
@@ -79,11 +80,12 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       features={[
-        { title: "Fast Shipping", description: "Get your gear in 1-2 business days.", imageSrc: "http://img.b2bpic.net/free-photo/high-angle-toy-laptop-boxes_23-2148790050.jpg", buttonIcon: Zap },
-        { title: "Quality Material", description: "Premium fabrics meant to last.", imageSrc: "http://img.b2bpic.net/free-photo/close-up-woman-holding-thermometer-her-arm_23-2147889076.jpg", buttonIcon: Shield },
-        { title: "Supportive Community", description: "We grow with our members.", imageSrc: "http://img.b2bpic.net/free-photo/adult-friends-shopping-clothes-together_23-2148385700.jpg", buttonIcon: Users },
-        { title: "Local Roots", description: "Proudly based in Covington, LA.", imageSrc: "http://img.b2bpic.net/free-photo/beautiful-pterodactylus-details_23-2151640178.jpg", buttonIcon: MapPin },
+        { title: "Fast Shipping", description: "Get your gear in 1-2 business days.", imageSrc: "http://img.b2bpic.net/free-photo/high-angle-toy-laptop-boxes_23-2148790050.jpg", buttonIcon: Zap, buttonHref: "#products" },
+        { title: "Quality Material", description: "Premium fabrics meant to last.", imageSrc: "http://img.b2bpic.net/free-photo/close-up-woman-holding-thermometer-her-arm_23-2147889076.jpg", buttonIcon: Shield, buttonHref: "#products" },
+        { title: "Supportive Community", description: "We grow with our members.", imageSrc: "http://img.b2bpic.net/free-photo/adult-friends-shopping-clothes-together_23-2148385700.jpg", buttonIcon: Users, buttonHref: "#products" },
+        { title: "Local Roots", description: "Proudly based in Covington, LA.", imageSrc: "http://img.b2bpic.net/free-photo/beautiful-pterodactylus-details_23-2151640178.jpg", buttonIcon: MapPin, buttonHref: "#products" },
       ]}
+      buttons={[{ text: "Shop Apparel", href: "#products" }]}
       title="Why Members Market?"
       description="Built for the streets, made with quality."
     />
@@ -115,6 +117,7 @@ export default function LandingPage() {
         { id: "2", title: "Where are you based?", content: "We are located in Covington, LA." },
         { id: "3", title: "How can I contact you?", content: "Reach out via our contact form or our social channels." },
       ]}
+      buttons={[{ text: "Shop Latest Drops", href: "#products" }]}
       sideTitle="Questions?"
       faqsAnimation="slide-up"
     />

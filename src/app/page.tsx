@@ -111,6 +111,7 @@ export default function LandingPage() {
 
   <div id="faq" data-section="faq">
       <FaqSplitText
+      sideTitle="Frequently Asked Questions"
       useInvertedBackground={false}
       faqs={[
         { id: "1", title: "How long does shipping take?", content: "We offer fast 1-2 business day shipping on all orders." },
@@ -138,6 +139,8 @@ export default function LandingPage() {
   <div id="footer" data-section="footer">
       <FooterLogoReveal
       logoText="MEMBERS MARKET"
+      leftLink={{ text: "Privacy", href: "/privacy" }}
+      rightLink={{ text: "Terms", href: "/terms" }}
     />
   </div>
       </ReactLenis>

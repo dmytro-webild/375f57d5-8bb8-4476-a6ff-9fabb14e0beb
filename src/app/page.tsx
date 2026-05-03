@@ -44,6 +44,8 @@ export default function LandingPage() {
       logoText="MEMBERS MARKET"
       description="Members Market is a closed-loop ecosystem for those who command distinction. Access our premium, exclusive apparel drops designed for our private Member community—elevate your status today."
       buttons={[{ text: "Shop the Collection", href: "#products" }]}
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777816209139-m5tz2o0k.png"
+      imageAlt="Members Market Logo"
     />
   </div>
 

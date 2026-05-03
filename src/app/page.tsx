@@ -44,7 +44,7 @@ export default function LandingPage() {
       logoText="MEMBERS MARKET"
       description="Premium streetwear from Covington, LA. Visionary designs, fast shipping, and quality apparel. DoubleM runs the world."
       buttons={[{ text: "Shop the Collection", href: "#products" }]}
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777763692127-h2q5t9oz.jpg"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777763692127-h2q5t9oz.jpg?_wi=1"
       showDimOverlay={true}
     />
   </div>
@@ -65,9 +65,9 @@ export default function LandingPage() {
       cardClassName="border-2 border-white/10"
       cardNameClassName="font-bold uppercase tracking-wider"
       products={[
-        { id: "p1", name: "Signature Hoodie", price: "$85", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777764497667-sros8ryr.jpg" },
-        { id: "p2", name: "Tracksuits", price: "$120", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777764497668-ndirln0w.jpg" },
-        { id: "p3", name: "Shirt and Short Set", price: "$95", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777764497668-8o21erfh.jpg" },
+        { id: "p1", name: "Signature Hoodie", price: "$85", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777764497667-sros8ryr.jpg?_wi=1" },
+        { id: "p2", name: "Tracksuits", price: "$120", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777764497668-ndirln0w.jpg?_wi=1" },
+        { id: "p3", name: "Shirt and Short Set", price: "$95", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777764497668-8o21erfh.jpg?_wi=1" },
         { id: "p4", name: "Tracksuit", price: "$120", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777764497668-f81fog3m.jpg" },
         { id: "p5", name: "High Quality Shirts", price: "$45", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777764497668-1kahcq3w.jpg" },
       ]}
@@ -82,10 +82,10 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={true}
       features={[
-        { title: "Fast Shipping", description: "Get your gear in 1-2 business days. Fast tracking for every member.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777763692127-h2q5t9oz.jpg", buttonIcon: Zap, buttonHref: "#products" },
-        { title: "Quality Material", description: "Premium fabrics meant for comfort and longevity. Built for the daily grind.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777764497667-sros8ryr.jpg", buttonIcon: Shield, buttonHref: "#products" },
-        { title: "Supportive Community", description: "Join the DoubleM family. We grow with our members.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777764497668-ndirln0w.jpg", buttonIcon: Users, buttonHref: "#products" },
-        { title: "Local Roots", description: "Proudly based in Covington, LA. Streetwear with local heritage.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777764497668-8o21erfh.jpg", buttonIcon: MapPin, buttonHref: "#products" },
+        { title: "Fast Shipping", description: "Get your gear in 1-2 business days. Fast tracking for every member.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777763692127-h2q5t9oz.jpg?_wi=2", buttonIcon: Zap, buttonHref: "#products" },
+        { title: "Quality Material", description: "Premium fabrics meant for comfort and longevity. Built for the daily grind.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777764497667-sros8ryr.jpg?_wi=2", buttonIcon: Shield, buttonHref: "#products" },
+        { title: "Supportive Community", description: "Join the DoubleM family. We grow with our members.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777764497668-ndirln0w.jpg?_wi=2", buttonIcon: Users, buttonHref: "#products" },
+        { title: "Local Roots", description: "Proudly based in Covington, LA. Streetwear with local heritage.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777764497668-8o21erfh.jpg?_wi=2", buttonIcon: MapPin, buttonHref: "#products" },
       ]}
       buttons={[{ text: "Shop Apparel", href: "#products" }]}
       title="Why Members Market?"

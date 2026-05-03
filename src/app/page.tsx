@@ -43,6 +43,7 @@ export default function LandingPage() {
       <HeroLogo
       logoText="MEMBERS MARKET"
       description="Members Market is a closed-loop ecosystem for those who command distinction. Access our premium, exclusive apparel drops designed for our private Member community—elevate your status today."
+      descriptionClassName="text-white"
       buttons={[{ text: "Shop the Collection", href: "#products" }]}
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777816209139-m5tz2o0k.png"
       imageAlt="Members Market Logo"
@@ -53,6 +54,7 @@ export default function LandingPage() {
       <TextAbout
       useInvertedBackground={true}
       title="About Members Market"
+      titleClassName="text-white"
     />
   </div>
 
@@ -63,7 +65,10 @@ export default function LandingPage() {
       gridVariant="four-items-2x2-equal-grid"
       useInvertedBackground={true}
       cardClassName="border-2 border-white/10"
-      cardNameClassName="font-bold uppercase tracking-wider"
+      cardNameClassName="font-bold uppercase tracking-wider text-white"
+      cardPriceClassName="text-white"
+      textBoxTitleClassName="text-white"
+      textBoxDescriptionClassName="text-white"
       products={[
         { id: "p1", name: "Signature Hoodie", price: "$85", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777764497667-sros8ryr.jpg?_wi=1" },
         { id: "p2", name: "Tracksuits", price: "$120", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777764497668-ndirln0w.jpg?_wi=1" },
@@ -81,6 +86,10 @@ export default function LandingPage() {
       <FeatureCardTwentySix
       textboxLayout="default"
       useInvertedBackground={true}
+      cardTitleClassName="text-white"
+      cardDescriptionClassName="text-white"
+      textBoxTitleClassName="text-white"
+      textBoxDescriptionClassName="text-white"
       features={[
         { title: "Fast Shipping", description: "Get your gear in 1-2 business days. Fast tracking for every member.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777763692127-h2q5t9oz.jpg?_wi=2", buttonIcon: Zap, buttonHref: "#products" },
         { title: "Quality Material", description: "Premium fabrics meant for comfort and longevity. Built for the daily grind.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777764497667-sros8ryr.jpg?_wi=2", buttonIcon: Shield, buttonHref: "#products" },
@@ -98,6 +107,12 @@ export default function LandingPage() {
       animationType="slide-up"
       textboxLayout="default"
       useInvertedBackground={true}
+      titleClassName="text-white"
+      textBoxTitleClassName="text-white"
+      textBoxDescriptionClassName="text-white"
+      memberTitleClassName="text-white"
+      memberSubtitleClassName="text-white"
+      memberDetailClassName="text-white"
       groups={[
         {
           id: "team-group",          groupTitle: "The Visionaries",          members: [
@@ -115,6 +130,10 @@ export default function LandingPage() {
       <FaqSplitText
       sideTitle="Members FAQ"
       useInvertedBackground={true}
+      sideTitleClassName="text-white"
+      sideDescriptionClassName="text-white"
+      accordionTitleClassName="text-white"
+      accordionContentClassName="text-white"
       faqs={[
         { id: "1", title: "How long does shipping take?", content: "We offer fast 1-2 business day shipping for all our members." },
         { id: "2", title: "Where are you based?", content: "Covington, LA. Local roots, global vision." },
@@ -129,6 +148,8 @@ export default function LandingPage() {
       useInvertedBackground={true}
       title="Let's Connect"
       description="Got a collab in mind or questions about an order? We're here to help."
+      titleClassName="text-white"
+      descriptionClassName="text-white"
       inputs={[
         { name: "name", type: "text", placeholder: "Your Name" },
         { name: "email", type: "email", placeholder: "Your Email" },

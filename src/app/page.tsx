@@ -67,15 +67,14 @@ export default function LandingPage() {
       useInvertedBackground={true}
       cardClassName="border-2 border-white/10"
       cardNameClassName="font-bold uppercase tracking-wider text-white"
-      cardPriceClassName="text-white"
       textBoxTitleClassName="text-white"
       textBoxDescriptionClassName="text-white"
       products={[
-        { id: "p1", name: "Signature Hoodie", price: "$85", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777764497667-sros8ryr.jpg?_wi=1" },
-        { id: "p2", name: "Tracksuits", price: "$120", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777764497668-ndirln0w.jpg?_wi=1" },
-        { id: "p3", name: "Shirt and Short Set", price: "$95", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777764497668-8o21erfh.jpg?_wi=1" },
-        { id: "p4", name: "Tracksuit", price: "$120", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777764497668-f81fog3m.jpg" },
-        { id: "p5", name: "High Quality Shirts", price: "$45", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777764497668-1kahcq3w.jpg" },
+        { id: "p1", name: "Signature Hoodie", price: "", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777764497667-sros8ryr.jpg?_wi=1" },
+        { id: "p2", name: "Tracksuits", price: "", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777764497668-ndirln0w.jpg?_wi=1" },
+        { id: "p3", name: "Shirt and Short Set", price: "", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777764497668-8o21erfh.jpg?_wi=1" },
+        { id: "p4", name: "Tracksuit", price: "", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777764497668-f81fog3m.jpg" },
+        { id: "p5", name: "High Quality Shirts", price: "", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777764497668-1kahcq3w.jpg" },
       ]}
       buttons={[{ text: "View New Apparel", href: "#products" }]}
       title="Shop Our Latest Collection"

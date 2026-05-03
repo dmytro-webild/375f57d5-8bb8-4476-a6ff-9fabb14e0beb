@@ -117,8 +117,6 @@ export default function LandingPage() {
         { id: "2", title: "Where are you based?", content: "We are located in Covington, LA." },
         { id: "3", title: "How can I contact you?", content: "Reach out via our contact form or our social channels." },
       ]}
-      buttons={[{ text: "Shop Latest Drops", href: "#products" }]}
-      sideTitle="Questions?"
       faqsAnimation="slide-up"
     />
   </div>
@@ -140,8 +138,6 @@ export default function LandingPage() {
   <div id="footer" data-section="footer">
       <FooterLogoReveal
       logoText="MEMBERS MARKET"
-      leftLink={{ text: "Terms", href: "#" }}
-      rightLink={{ text: "Privacy", href: "#" }}
     />
   </div>
       </ReactLenis>

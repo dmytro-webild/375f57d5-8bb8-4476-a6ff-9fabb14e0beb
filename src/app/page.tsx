@@ -42,6 +42,7 @@ export default function LandingPage() {
   <div id="hero" data-section="hero">
       <HeroLogo
       logoText="MEMBERS MARKET"
+      logoClassName="text-white"
       description="Members Market is a closed-loop ecosystem for those who command distinction. Access our premium, exclusive apparel drops designed for our private Member community—elevate your status today."
       descriptionClassName="text-white"
       buttons={[{ text: "Shop the Collection", href: "#products" }]}

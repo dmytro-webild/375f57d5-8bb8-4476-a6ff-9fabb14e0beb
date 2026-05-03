@@ -91,10 +91,10 @@ export default function LandingPage() {
       textBoxTitleClassName="text-white"
       textBoxDescriptionClassName="text-white"
       features={[
-        { title: "Fast Shipping", description: "Get your gear in 1-2 business days. Fast tracking for every member.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777763692127-h2q5t9oz.jpg?_wi=2", buttonIcon: Zap, buttonHref: "#products" },
-        { title: "Quality Material", description: "Premium fabrics meant for comfort and longevity. Built for the daily grind.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777764497667-sros8ryr.jpg?_wi=2", buttonIcon: Shield, buttonHref: "#products" },
-        { title: "Supportive Community", description: "Join the DoubleM family. We grow with our members.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777764497668-ndirln0w.jpg?_wi=2", buttonIcon: Users, buttonHref: "#products" },
-        { title: "Local Roots", description: "Proudly based in Covington, LA. Streetwear with local heritage.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777764497668-8o21erfh.jpg?_wi=2", buttonIcon: MapPin, buttonHref: "#products" },
+        { title: "Fast Shipping", description: "Get your gear in 1-2 business days. Fast tracking for every member.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777817028243-uudiprlw.jpg", buttonIcon: Zap, buttonHref: "#products" },
+        { title: "Quality Material", description: "Premium fabrics meant for comfort and longevity. Built for the daily grind.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777817028243-x37u9bm7.jpg", buttonIcon: Shield, buttonHref: "#products" },
+        { title: "Supportive Community", description: "Join the DoubleM family. We grow with our members.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777817028243-u29urpnw.jpg", buttonIcon: Users, buttonHref: "#products" },
+        { title: "Local Roots", description: "Proudly based in Covington, LA. Streetwear with local heritage.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777817028244-svkdjxki.jpg", buttonIcon: MapPin, buttonHref: "#products" },
       ]}
       buttons={[{ text: "Shop Apparel", href: "#products" }]}
       title="Why Members Market?"
@@ -111,7 +111,7 @@ export default function LandingPage() {
         {
           id: "team-group",          groupTitle: "The Visionaries",          members: [
             {
-              id: "elijah",              title: "@3elijahh",              subtitle: "Founder & Creative Director",              detail: "The creative force behind every stitch. DoubleM vision.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777763692127-u6lqi6r2.jpg"},
+              id: "elijah",              title: "@3elijahh",              subtitle: "Founder & Creative Director",              detail: "The creative force behind every stitch. DoubleM vision.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777817028244-0o8p21i8.jpg"},
           ]
         },
       ]}
@@ -144,6 +144,7 @@ export default function LandingPage() {
       description="Got a collab in mind or questions about an order? We're here to help."
       titleClassName="text-white"
       descriptionClassName="text-white"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777817028243-uudiprlw.jpg"
       inputs={[
         { name: "name", type: "text", placeholder: "Your Name" },
         { name: "email", type: "email", placeholder: "Your Email" },
@@ -155,6 +156,7 @@ export default function LandingPage() {
   <div id="footer" data-section="footer">
       <FooterLogoReveal
       logoText="MEMBERS MARKET"
+      logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D6Oo1PnBmo6aetPyAcgeTlh2ag/uploaded-1777816209139-m5tz2o0k.png"
       leftLink={{ text: "Privacy", href: "/privacy" }}
       rightLink={{ text: "Terms", href: "/terms" }}
     />

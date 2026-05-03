@@ -4,7 +4,7 @@ import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import { Zap, Shield, Users, MapPin } from "lucide-react";
 import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
-import FaqSplitText from '@/components/sections/faq/FaqSplitText';
+import FaqDouble from '@/components/sections/faq/FaqDouble';
 import FeatureCardTwentySix from '@/components/sections/feature/FeatureCardTwentySix';
 import FooterLogoReveal from '@/components/sections/footer/FooterLogoReveal';
 import HeroLogo from '@/components/sections/hero/HeroLogo';
@@ -121,19 +121,18 @@ export default function LandingPage() {
   </div>
 
   <div id="faq" data-section="faq">
-      <FaqSplitText
-      sideTitle="Members FAQ"
+      <FaqDouble
+      title="Members FAQ"
+      description="Get answers to your questions about Members Market."
       useInvertedBackground={true}
-      sideTitleClassName="text-white"
-      sideDescriptionClassName="text-white"
-      accordionTitleClassName="text-white"
-      accordionContentClassName="text-white"
       faqs={[
         { id: "1", title: "How long does shipping take?", content: "We offer fast 1-2 business day shipping for all our members." },
         { id: "2", title: "Where are you based?", content: "Covington, LA. Local roots, global vision." },
         { id: "3", title: "How can I contact you?", content: "DM us or reach out via our contact form. DoubleM is always listening." },
       ]}
       faqsAnimation="slide-up"
+      textboxLayout="default"
+      accordionClassName="text-white"
     />
   </div>
 

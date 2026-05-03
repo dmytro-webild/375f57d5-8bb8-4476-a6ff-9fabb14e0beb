@@ -107,12 +107,6 @@ export default function LandingPage() {
       animationType="slide-up"
       textboxLayout="default"
       useInvertedBackground={true}
-      titleClassName="text-white"
-      textBoxTitleClassName="text-white"
-      textBoxDescriptionClassName="text-white"
-      memberTitleClassName="text-white"
-      memberSubtitleClassName="text-white"
-      memberDetailClassName="text-white"
       groups={[
         {
           id: "team-group",          groupTitle: "The Visionaries",          members: [
